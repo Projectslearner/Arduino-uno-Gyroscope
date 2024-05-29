@@ -30,7 +30,8 @@ void setup()
 
 void loop() {
   // Check if MPU-6050 is connected
-  if (!mpu.testConnection()) {
+  if (!mpu.testConnection())
+  {
     Serial.println("MPU6050 disconnected");
     delay(1000);  // Wait for a while before rechecking
     checkConnection();
@@ -57,8 +58,10 @@ void loop() {
   delay(5000);
 }
 
-void checkConnection() {
-  while (!mpu.testConnection()) {
+void checkConnection()
+ {
+  while (!mpu.testConnection())
+  {
     Serial.println("MPU6050 connection failed. Rechecking...");
     delay(1000);  // Wait before rechecking
     mpu.initialize();  // Reinitialize the MPU-6050
