@@ -24,5 +24,5 @@ A gyroscope sensor measures the angular velocity and orientation of an object. W
    - Connect the Arduino to your computer using a USB cable.
 
 4. **Observe the Data:**
-   - To read data from the MPU-6050, you typically need to upload a sketch to the Arduino. However, here's a simple setup to ensure everything is connected correctly without using code:
+   - To read data from the MPU-6050, you typically need to upload a sketch to the Arduino. However, here's a simple setup to ensure everything is connected correctly without using code.
 
